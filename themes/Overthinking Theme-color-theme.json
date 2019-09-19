@@ -5,13 +5,20 @@
     /**
      * Global Settings
      */
-		{
+	{
       "name": "Comment",
       "scope": "comment",
       "settings": {
 				"foreground": "#777777",
-				"fontStyle": "italic"
+				"fontStyle": ""
       }
+    },
+    {
+        "name": "Global definitions",
+        "scope": "entity.name",
+        "settings": {
+            "foreground": "#00bbaa"
+        }
     },
     {
       "name": "String",
@@ -24,7 +31,7 @@
       "name": "Number",
       "scope": "constant.numeric",
       "settings": {
-        "foreground": "#ce1836"
+        "foreground": "#ffffff"
       }
     },
     {
@@ -70,15 +77,15 @@
       "name": "Storage type",
       "scope": "storage.type",
       "settings": {
-        "fontStyle": "italic",
+        "fontStyle": "",
         "foreground": "#fa5555"
       }
     },
 		{
-			"name": "Entity Name",
+			"name": "Entity Name", // export class style
 			"scope": "entity.name.type.class",
 			"settings": {
-				"fontStyle": "bold underline",
+				"fontStyle": "underline",
 				"foreground": "#e3e2e0"
 			}
 		},
@@ -94,7 +101,8 @@
 			"name": "Function name - Called",
 			"scope": "entity.name.function",
 			"settings": {
-				"foreground": "#c3cb4c"
+        // "foreground": "#c3cb4c",
+        "foreground": "#f7c53c"
 			}
 		},
 
@@ -105,7 +113,7 @@
 				"entity.name.function.python"
 			],
 			"settings": {
-        "fontStyle": "bold",
+        "fontStyle": "",
       }
 		},
 		{
@@ -115,7 +123,7 @@
 				"variable.parameter.function.language.special"
 			],
 			"settings": {
-				"fontStyle": "italic",
+				"fontStyle": "",
 				"foreground": "#a7a7a7"
 			}
 		},
@@ -124,7 +132,7 @@
       "scope": "variable.parameter",
       "settings": {
         "foreground": "#f7b83d",
-        "fontStyle": "italic"
+        "fontStyle": ""
       }
 		},
     {
@@ -321,7 +329,7 @@
 			"name": "Object Property",
 			"scope": "variable.other.object.property",
 			"settings": {
-				"fontStyle": "italic"
+				"fontStyle": ""
 			}
 		},
     {
@@ -339,7 +347,7 @@
       "name": "Pseudo-class",
       "scope": "entity.other.attribute-name.pseudo-class",
       "settings": {
-        "fontStyle": "italic",
+        "fontStyle": "",
         "foreground": "#9f79aa"
       }
     },
@@ -374,14 +382,14 @@
 			"name": "Keyword Export Default JS",
 			"scope": "meta.export.default",
 			"settings": {
-				"fontStyle": "italic"
+				"fontStyle": ""
 			}
 		},
 		{
 			"name": "JS Class Modifier",
 			"scope": "storage.modifier.js",
 			"settings": {
-				"fontStyle": "italic"
+				"fontStyle": ""
 			}
 		},
 
@@ -400,7 +408,7 @@
 			"name": "Python fstring",
 			"scope": "meta.fstring",
 			"settings": {
-				"fontStyle": "italic"
+				"fontStyle": ""
 			}
     },
     {
@@ -429,7 +437,7 @@
       "scope": "entity.name.function.decorator",
       "settings": {
         "foreground": "#9f79aa",
-        "fontStyle": "italic"
+        "fontStyle": ""
       }
     },
     {
@@ -487,7 +495,7 @@
       "name": "Markdown bold stars",
       "scope": [
         "punctuation.definition.bold.markdown",
-        "punctuation.definition.italic.markdown"
+        "punctuation.definition..markdown"
       ],
       "settings": {
         "foreground": "#f7c53c"
@@ -523,24 +531,24 @@
       }
     },
     {
-      "name": "Markdown bold/italic",
+      "name": "Markdown bold/",
       "scope": [
         "markup.bold.markdown",
-        "markup.italic.markdown"
+        "markup..markdown"
       ],
       "settings": {
         "foreground": "#fa5555"
       }
     },
     {
-      "name": "Markdown bold/italic",
-      "scope": "markup.italic.markdown",
+      "name": "Markdown bold/",
+      "scope": "markup..markdown",
       "settings": {
-        "fontStyle": "italic"
+        "fontStyle": ""
       }
     },
     {
-      "name": "Markdown bold/italic",
+      "name": "Markdown bold/",
       "scope": "markup.bold.markdown",
       "settings": {
         "fontStyle": "bold"
