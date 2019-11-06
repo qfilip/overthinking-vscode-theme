@@ -1,21 +1,18 @@
 {
-    "name": "overthinking-theme",
-    "displayName": "Overthinking",
+    "name": "watergrape-theme",
+    "displayName": "Water Grape",
     "description": "A dark theme with saturated colors.",
-    "version": "0.3.2",
-    "publisher": "scivarolo",
-    "author": "Sebastian Civarolo",
+    "version": "0.0.1",
+    "publisher": "qfilip",
+    "author": "qfilip",
     "galleryBanner": {
         "color": "#00bbaa",
         "theme": "dark"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/scivarolo/overthinking-vscode-theme"
+        "url": "https://github.com/qfilip/watergrape-vscode-theme"
     },
-    "bugs": {
-		"url": "https://github.com/equinusocio/vsc-material-theme/issues"
-	},
     "engines": {
         "vscode": "^1.30.0"
     },
@@ -25,9 +22,9 @@
     "contributes": {
         "themes": [
             {
-                "label": "Overthinking Theme",
+                "label": "Water Grape Theme",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Overthinking Theme-color-theme.json"
+                "path": "./themes/watergrape-color-theme.json"
             }
         ]
     }
