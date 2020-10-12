@@ -21,6 +21,13 @@
         }
     },
     {
+        "name": "Primitives",
+        "scope": "support.type.primitive",
+        "settings": {
+            "foreground": "#00bbaa"
+        }
+    },
+    {
       "name": "String",
       "scope": "string",
       "settings": {
